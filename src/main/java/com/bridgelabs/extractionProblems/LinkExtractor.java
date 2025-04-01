@@ -11,6 +11,7 @@ public class LinkExtractor {
         String str = sc.nextLine(); // Read user input
 
         String regex = "https?://[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)+(?:/[a-zA-Z0-9%_.-]*)*";
+
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(str);
 
