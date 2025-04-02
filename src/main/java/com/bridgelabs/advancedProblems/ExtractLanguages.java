@@ -20,7 +20,7 @@ public class ExtractLanguages {
         if (languages.isEmpty()) {
             System.out.println("No programming languages found.");
         } else {
-            System.out.println("Extracted programming languages: " + String.join(", ", languages));
+            System.out.println("Extracted programming languages: " + languages);
         }
     }
 }
