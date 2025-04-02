@@ -11,9 +11,9 @@ public class CreditCardValidator {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter your credit card number:");
-        String cardNumber = scanner.nextLine();
+        String cardNumber = sc.nextLine();
 
         if (isValidCardNumber(cardNumber)) {
             System.out.println("Valid Visa or MasterCard number.");
