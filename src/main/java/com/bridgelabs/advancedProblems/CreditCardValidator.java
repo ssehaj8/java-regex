@@ -26,5 +26,4 @@ public class CreditCardValidator {
 Enter your credit card number:
 5212345678901234
 Valid Visa or MasterCard number.
-
  */
